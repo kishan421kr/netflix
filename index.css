@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  background-blend-mode: lighten;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 148px 20px 148px;
+  position: absolute;
+  z-index: 2;
+}
+#navbar #navbarart1 span {
+  font-size: 25px;
+  color: rgb(229, 9, 20);
+  margin-right: 890px;
+}
+#navbar #navbarart2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+#navbar #navbarart2 div {
+  font-size: 20px;
+}
+#navbar #navbarart2 div button {
+  height: 30px;
+  width: 80px;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#hero {
+  background-image: url("./image/IN-en-20240916-TRIFECTA-perspective_72df5d07-cf3f-4530-9afd-8f1d92d7f1a8_large.jpg");
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.853);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+#hero div {
+  width: 600px;
+}
+#hero div #herodiv1 h1 {
+  font-size: 56px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+#hero div #herodiv1 u {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+#hero div #herodiv2 div {
+  font-size: 18px;
+}
+#hero div #herodiv2 div input {
+  width: 340px;
+  height: 50px;
+  background-color: rgba(22, 22, 22, 0.7);
+  border: 0.5px solid rgba(128, 128, 128, 0.7);
+  border-radius: 4px;
+  padding: 0px 0px 0px 15px;
+}
+#hero div #herodiv2 div input ::placeholder {
+  font-size: 26px;
+}
+#hero div #herodiv2 div button {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(229, 9, 20);
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+#hero div #herodiv2 div button i {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+#trending article {
+  background-color: black;
+  height: fit-content;
+  color: white;
+  padding: 40px 150px 40px 150px;
+}
+#trending article h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+#trending article #trendingoptions {
+  margin-top: 15px;
+}
+#trending article #trendingoptions select option {
+  font-size: 16px;
+}
+#trending article #tredingmoviecard {
+  display: flex;
+  overflow: scroll;
+  margin-top: 15px;
+}
+#trending article #tredingmoviecard div {
+  border-radius: 8px;
+  padding: 8px 22px 8px 22px;
+}
+#trending article #tredingmoviecard div img {
+  overflow: hidden;
+  border-radius: 8px;
+  height: 250px;
+  width: 180px;
+}
+#trending article #tredingmoviecard::-webkit-scrollbar {
+  display: none;
+}
+
+#reason {
+  background-color: black;
+  color: white;
+  padding: 40px 150px 40px 150px;
+}
+#reason h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#reason #reasoncard {
+  display: flex;
+}
+#reason #reasoncard div {
+  height: 290px;
+  width: 280px;
+  padding: 24px 16px 0px 16px;
+  background-color: rgb(81, 81, 146);
+  border-radius: 16px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+#reason #reasoncard div h3 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+#FAQ {
+  background-color: black;
+  color: white;
+  padding: 40px 150px 40px 150px;
+}
+#FAQ h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#FAQ #questions div {
+  background-color: rgb(50, 50, 50);
+  padding: 24px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+#FAQ #questions div #fa-solid {
+  height: 36px;
+  width: 36px;
+  color: white;
+}
+
+#membership {
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 30px 0px 30px 0px;
+}
+#membership div {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  align-items: center;
+}
+#membership div input {
+  width: 560px;
+  height: 50px;
+  background-color: rgba(22, 22, 22, 0.7);
+  border: 0.5px solid rgba(128, 128, 128, 0.7);
+  border-radius: 4px;
+  padding: 0px 0px 0px 15px;
+}
+#membership div input ::placeholder {
+  font-size: 26px;
+}
+#membership div button {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(229, 9, 20);
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+#membership div button i {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 40px 150px 40px 150px;
+}
+footer h4 {
+  margin-bottom: 30px;
+}
+footer div {
+  margin-bottom: 30px;
+}
+footer #footerlist {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-size: 16px;
+}
+footer #footerlist div div {
+  margin-bottom: 15px;
+  text-decoration: underline 1px;
+}
+footer #footerlist div #netflixindia {
+  margin-bottom: 0px;
+}
+
+#netflixindia {
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=index.css.map */
