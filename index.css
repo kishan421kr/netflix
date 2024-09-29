@@ -6,16 +6,16 @@
 }
 
 #navbar {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto;
   padding: 20px 148px 20px 148px;
   position: absolute;
   z-index: 2;
 }
-#navbar #navbarart1 span {
-  font-size: 25px;
-  color: rgb(229, 9, 20);
+#navbar #navbarart1 div {
   margin-right: 890px;
+  height: 30px;
+  width: 150px;
 }
 #navbar #navbarart2 {
   display: flex;
@@ -23,6 +23,15 @@
 }
 #navbar #navbarart2 div {
   font-size: 20px;
+}
+#navbar #navbarart2 div select {
+  width: 100px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.562);
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
 #navbar #navbarart2 div button {
   height: 30px;
@@ -37,11 +46,11 @@
 }
 
 #hero {
-  background-image: url("./image/IN-en-20240916-TRIFECTA-perspective_72df5d07-cf3f-4530-9afd-8f1d92d7f1a8_large.jpg");
+  background-image: linear-gradient(7deg, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.5%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.7944) 39%, rgba(0, 0, 0, 0.7632) 46.25%, rgba(0, 0, 0, 0.725) 53.5%, rgba(0, 0, 0, 0.6868) 60.75%, rgba(0, 0, 0, 0.6556) 68%, rgba(0, 0, 0, 0.6312) 75.25%, rgba(0, 0, 0, 0.6139) 82.5%, rgba(0, 0, 0, 0.6035) 89.75%, rgba(0, 0, 0, 0.6) 97%), url("./image/IN-en-20240916-TRIFECTA-perspective_72df5d07-cf3f-4530-9afd-8f1d92d7f1a8_large.jpg");
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.853);
+  width: 100%;
+  background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,8 +113,15 @@
 #trending article #trendingoptions {
   margin-top: 15px;
 }
-#trending article #trendingoptions select option {
+#trending article #trendingoptions select {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(30, 30, 30, 0.562);
+  color: white;
+  text-align: center;
   font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
 }
 #trending article #tredingmoviecard {
   display: flex;
@@ -143,7 +159,7 @@
   height: 290px;
   width: 280px;
   padding: 24px 16px 0px 16px;
-  background-color: rgb(81, 81, 146);
+  background-image: linear-gradient(rgba(81, 81, 146, 0.614) rgba(0, 0, 0, 0.6));
   border-radius: 16px;
   margin-left: 20px;
   font-size: 18px;
@@ -239,6 +255,16 @@ footer #footerlist div div {
 }
 footer #footerlist div #netflixindia {
   margin-bottom: 0px;
+}
+
+#footerselect {
+  width: 100px;
+  height: 30px;
+  background-color: rgba(30, 30, 30, 0.562);
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 #netflixindia {
